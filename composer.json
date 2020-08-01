@@ -1,0 +1,14 @@
+{
+  "name": "OneNice/dashboard-sdk",
+  "description": "Base components for tager-admin",
+  "license": "MIT",
+  "homepage": "https://github.com/onenice/dashboard-sdk",
+  "require": {
+    "ozitag/tager-backend-core": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "OZiTAG\\Tager\\Backend\\Admin\\": "src"
+    }
+  }
+}
