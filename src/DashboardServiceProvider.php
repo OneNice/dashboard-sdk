@@ -1,6 +1,6 @@
 <?php
 
-namespace OZiTAG\Tager\Backend\Admin;
+namespace OneNice\Dashboard\Sdk;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider;
 use Illuminate\Support\Facades\Route;
