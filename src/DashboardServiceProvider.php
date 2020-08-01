@@ -18,6 +18,11 @@ class DashboardServiceProvider extends EventServiceProvider
     {
         parent::boot();
 
+
+        $this->publishes([
+            __DIR__ . '/../config.php' => config_path('dashboard-sdk.php'),
+        ]);
+
         $this->loadRoutesFrom(__DIR__ . '/../routes/routes.php');
     }
 }
